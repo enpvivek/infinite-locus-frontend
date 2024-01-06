@@ -21,10 +21,10 @@ const Header = () => {
             id="navbar"
             className="flex flex-row text-2xl font-semibold gap-x-5"
           >
-            <Link to="/" className=" hover:bg-gray-100 rounded-md">Products</Link>
-            <Link to="/add-products" className=" hover:bg-gray-100 rounded-md">Add Product</Link>
-            <Link to="/sales" className=" hover:bg-gray-100 rounded-md">Sales</Link>
-            <Link to="/items" className=" hover:bg-gray-100 rounded-md">Suggestions</Link>
+            <Link to="/" className=" hover:bg-gray-100 rounded-md hover:border-2">Products</Link>
+            <Link to="/add-products" className=" hover:bg-gray-100 rounded-md hover:border-2">Add Product</Link>
+            <Link to="/sales" className=" hover:bg-gray-100 rounded-md hover:border-2">Sales</Link>
+            <Link to="/items" className=" hover:bg-gray-100 rounded-md hover:border-2">Suggestions</Link>
           </div>
         </div>
 
