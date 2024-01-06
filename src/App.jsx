@@ -1,22 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Products from './Products';
-import Header from './Header';
-import Sales from './Sales';
-import Items from './Items';
-import AddProducts from './AddProducts';
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Products from "./Products";
+import Header from "./Header";
+import Sales from "./Sales";
+import Items from "./Items";
+import AddProducts from "./AddProducts";
 
 export default function App() {
   return (
     <Router>
-     <Header />
+      <Header />
       <Routes>
         <Route
           path="/"
           element={
             <>
-             
               <Products />
             </>
           }

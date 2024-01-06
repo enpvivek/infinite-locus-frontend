@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 import Items from "./Items";
 import AddProducts from "./AddProducts";
 import Sales from "./Sales";
@@ -10,7 +9,6 @@ const Products = () => {
     <>
       {/* Show Admin Name */}
       <div id="products" className="flex flex-col w-full h-screen mx-0">
-        <Header />
         {/* <Login /> */}
         <Sales />
         {/* <AddProducts /> */}
