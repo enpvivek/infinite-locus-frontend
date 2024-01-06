@@ -12,7 +12,7 @@ const Products = () => {
         {/* <Login /> */}
         <Sales />
         {/* <AddProducts /> */}
-        <div id="itemContainer" className="flex">
+        <div id="itemContainer" className="flex m-8">
           <div id="productContainer" className=" grid grid-cols-3 w-full gap-5">
             <Items />
             <Items />
